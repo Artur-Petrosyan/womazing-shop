@@ -1,0 +1,26 @@
+.modalSuccess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.button {
+    width: 168px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #6E9C9F;
+    color: #6E9C9F;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.61px;
+
+    &:hover {
+        background: #6E9C9F;
+        color: white;
+    }
+}

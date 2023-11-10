@@ -1,0 +1,50 @@
+.inpContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.order_container {
+    margin-bottom: 130px;
+}
+
+.textArea {
+    width: 350px;
+    max-width: 350px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.order_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_part {
+    & h3 {
+        margin-bottom: 47px;
+    }
+
+    & h4 {
+        margin-bottom: 15px;
+    }
+}
+
+.info {
+    display: flex;
+
+    & h4 {
+        margin-right: 15px;
+    }
+}
+
+.select {
+    width: 260px;
+    height: 70px;
+    background: none;
+    font-size: 20px;
+
+    & .option {
+        height: 60px;
+    }
+}

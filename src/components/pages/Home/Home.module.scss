@@ -1,0 +1,255 @@
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    margin-bottom: 184px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 705px;
+    height: 826px;
+    background: #F1EADC;
+    z-index: -1;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+
+}
+
+.leftBtn {
+    width: 67px;
+    height: 67px;
+    background: rgba(110, 156, 159, 0.1);
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 563px;
+    margin-right: 152px;
+    position: relative;
+}
+
+.rightBtn {
+    padding: 22px 50px;
+    gap: 10px;
+
+    background: #6E9C9F;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    &:hover {
+        cursor: pointer;
+        background: #509498;
+    }
+}
+
+.buttons {
+    padding-left: 36px;
+}
+
+.topText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.bottomText {
+    display: flex;
+    justify-content: start;
+    text-align: end;
+    margin-bottom: 52px;
+    padding-left: 15px;
+}
+
+.slideButton {
+    width: 30px;
+    height: 4px;
+    background: #D1D1D1;
+    border: none;
+    margin-right: 5px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.bottomBtns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideLeftBtn {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    top: 55%;
+}
+
+.slideRightBtn {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    top: 55%;
+}
+
+.section_2 {
+    margin-bottom: 130px;
+}
+
+.section_2_top {
+    margin-bottom: 92px;
+}
+
+
+
+.section_2_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.card_img {
+    margin-bottom: 24px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section_2_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3 {
+    margin-bottom: 130px;
+}
+
+.section_3_top {
+    margin-bottom: 92px;
+}
+
+.section_3_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card_h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.card_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.card_img {
+    margin-bottom: 37px;
+}
+
+.section_4 {
+    margin-bottom: 129.58px;
+}
+
+.section_4_top {
+    margin-bottom: 92px;
+}
+
+.section_4_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_4_left_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 787px;
+    height: 491px;
+
+    & div img:hover {
+        cursor: pointer;
+    }
+}
+
+
+.section_4_right_part {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section_4_text_container {
+    margin-bottom: 28px;
+}
+
+.section_navLink {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+    text-decoration: none;
+}

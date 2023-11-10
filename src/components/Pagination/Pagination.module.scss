@@ -1,0 +1,33 @@
+.activeBtn {
+    padding: 9px 16.5px 9px 16.5px;
+    border: 2px black solid;
+    background: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    margin-right: 14px;
+    background: #000000;
+    color: white;
+}
+
+.btn {
+    padding: 9px 16.5px 9px 16.5px;
+    border: 2px black solid;
+    background: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    margin-right: 14px;
+
+    &:hover {
+        background: #000000;
+        color: white;
+    }
+
+}
