@@ -462,6 +462,39 @@
         ]
       },
       "id": 11
+    },
+    {
+      "dsdsadas": {
+        "payload": {
+          "buyer": {
+            "name": "sda",
+            "email": "sada",
+            "phone": "dsdsadas"
+          },
+          "recipient": {
+            "address": {
+              "country": "dasdas",
+              "city": "dsa",
+              "street": "dasd",
+              "home": "asdasd",
+              "apartment": "adasd"
+            }
+          }
+        },
+        "basket": [
+          {
+            "id": 1,
+            "image": "../src/components/pages/Store/assets/images/girl1.svg",
+            "category": "COAT",
+            "name": "Купальник Glow",
+            "price": 100,
+            "color": "",
+            "size": "",
+            "quantity": 3
+          }
+        ]
+      },
+      "id": 12
     }
   ],
   "categories": [
